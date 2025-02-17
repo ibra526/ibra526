@@ -6,7 +6,7 @@
     <variable type="" id="pY$+$CP}mEGEFGJFBA*3" islocal="false" iscloud="false">evencountloss</variable>
     <variable type="" id="z#ik-/~gZ%VE(r(=FpbA" islocal="false" iscloud="false">Win Amount</variable>
     <variable type="" id="ckz}/|4PR_7Vipx9=X`7" islocal="false" iscloud="false">Max Acceptable Loss</variable>
-    <variable type="" id="G.`|(KYchy=nXTur?7vq" islocal="false" iscloud="false">digit analysis</variable>
+    <variable type="" id="G.`|(KYchy=nXTur?7vq" islocal="false" iscloud="false">stake1</variable>
     <variable type="" id="F[_559YyhHcMHij72dJP" islocal="false" iscloud="false">stoploss</variable>
     <variable type="" id="9zcAky-m@0RZkb)@N0,a" islocal="false" iscloud="false">martingal</variable>
     <variable type="" id="~`9Mai+-1WcGmE*dSp,O" islocal="false" iscloud="false">digit odd</variable>
@@ -14,7 +14,7 @@
     <variable type="" id="582pEiF,Y^J|AkrGxo2a" islocal="false" iscloud="false">targetprofit</variable>
     <variable type="" id="LqjwJ/[Lt;sXiG5UfA_P" islocal="false" iscloud="false">totalloss</variable>
   </variables>
-  <block type="trade_definition" id=":,u}#h3=I+@IU7aG29Ln" collapsed="true" x="0" y="0">
+  <block type="trade_definition" id=":,u}#h3=I+@IU7aG29Ln" collapsed="true">evenlosscount=2setevenlosscountto0purchaseover<x="0" y="0">
     <comment id="mfjm{)0]M;ueG,OK{ee3" pinned="true" h="200" w="200" x="294" y="83" minimized="false">Press Run and Stop it Manually
 
 Experimental Robot
