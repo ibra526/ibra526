@@ -1,4 +1,11 @@
 <xml xmlns="https://developers.google.com/blockly/xml" is_dbot="true" collection="false">
+  <variable id="Yc2(?I]yhjR)7r#JH(GU">2ndLastDigit</variable>
+    <variable id="bApXT1A,+eLl!Y[O8Th*">Stake</variable>
+    <variable id="wL{Wo5qT|Bv=6v#EbWIc">lastDigit</variable>
+    <variable id="lCN)@wBBD%s95n*|krf;">Martingale</variable>
+    <variable id="0#dL~P-qJAHY0vE|j[Un">3rdLastDigit</variable>
+    <variable id="pWX~7zBFdJ9*{g_mFK,1">InitialStake</variable>
+  </variables>
   <block type="trade_definition" id="`q4jt:b.yKENt{gGiE*," deletable="false" x="0" y="0">
     <statement name="TRADE_OPTIONS">
       <block type="trade_definition_market" id="ZL*86J/nd#L_/lwjGbf/" deletable="false" movable="false">
