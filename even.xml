@@ -34,7 +34,7 @@
                         <next>
                           <block type="trade_definition_restartonerror" id="Fbl5Qaz^?5SFDXnz=P2v" deletable="false" movable="false">
                             <field name="RESTARTONERROR">TRUE</field>
-                          </block>
+                          </block><text class="blocklyText blocklyTextTickAnalysis" dominant-baseline="central" x="0" y="10.5">The content of this block is called on every tick</text><g xmlns="http://www.w3.org/2000/svg" data-id="8m2k!X15_SFJJ4yfeQz;" class="blocklyDraggable blocklySelected" transform="translate(9.259259259259258, 1474.2037037037037)">
                         </next>
                       </block>
                     </next>
@@ -270,7 +270,7 @@
                                     <field name="NUM">2</field>
                                   </shadow>
                                   <block type="variables_get" id="9MZs|6;M:oBFn.r$T)B5">
-                                    <field name="VAR" id="4">martingale</field>
+                                    <field name="VAR" id="4">martingale</field>                                                                         
                                   </block>
                                 </value>
                               </block>
