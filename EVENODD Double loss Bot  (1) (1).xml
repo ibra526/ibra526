@@ -33,7 +33,74 @@
                         <g xmlns="http://www.w3.org/2000/svg" data-id="8m2k!X15_SFJJ4yfeQz;" class="blocklyDraggable blocklySelected" transform="translate(9.259259259259258, 1474.2037037037037)">
   <path class="blocklyPath" stroke="#053b56" fill="#064e72" d=" m 0,0  m 0,4 a 4 4 0 0,1 4,-4  h 361.0859375 a 4 4 0 0,1 4,4  v 4  V 8  V 40  V 44 a 4 4 0 0,1 -4,4  H 64  c -2,0  -3,1  -4,2  l -4,4  c -1,1  -2,2  -4,2  h -12  c -2,0  -3,-1  -4,-2  l -4,-4  c -1,-1  -2,-2  -4,-2  h -8 a 4 4 0 0,0 -4,4  v 88 a 4 4 0 0,0 4,4  h 8  c 2,0  3,1  4,2  l 4,4  c 1,1  2,2  4,2  h 12  c 2,0  3,-1  4,-2  l 4,-4  c 1,-1  2,-2  4,-2  H 365.0859375 a 4 4 0 0,1 4,4  V 152  V 172 a 4 4 0 0,1 -4,4  h -361.0859375 a 4 4 0 0,1 -4,-4 z&#10;"></path>
   <g transform="translate(8,13.5)">
+    <text class="blocklyText blocklyTextTickAnalysis" dominant-baseline="central" x="0" y="10.5">The content of this block is called on every tick</text><g xmlns="http://www.w3.org/2000/svg" data-id="8m2k!X15_SFJJ4yfeQz;" class="blocklyDraggable blocklySelected" transform="translate(9.259259259259258, 1474.2037037037037)">
+  <path class="blocklyPath" stroke="#053b56" fill="#064e72" d=" m 0,0  m 0,4 a 4 4 0 0,1 4,-4  h 361.0859375 a 4 4 0 0,1 4,4  v 4  V 8  V 40  V 44 a 4 4 0 0,1 -4,4  H 64  c -2,0  -3,1  -4,2  l -4,4  c -1,1  -2,2  -4,2  h -12  c -2,0  -3,-1  -4,-2  l -4,-4  c -1,-1  -2,-2  -4,-2  h -8 a 4 4 0 0,0 -4,4  v 88 a 4 4 0 0,0 4,4  h 8  c 2,0  3,1  4,2  l 4,4  c 1,1  2,2  4,2  h 12  c 2,0  3,-1  4,-2  l 4,-4  c 1,-1  2,-2  4,-2  H 365.0859375 a 4 4 0 0,1 4,4  V 152  V 172 a 4 4 0 0,1 -4,4  h -361.0859375 a 4 4 0 0,1 -4,-4 z&#10;"></path>
+  <g transform="translate(8,13.5)">
     <text class="blocklyText blocklyTextTickAnalysis" dominant-baseline="central" x="0" y="10.5">The content of this block is called on every tick</text>
+  </g>
+  <g data-id="D9#N:dxfobE7RJP=4sDC" class="blocklyDraggable" style="display: block;" transform="translate(16, 48)">
+    <path class="blocklyPath" stroke="#acacac" fill="#e5e5e5" d=" m 0,0  m 0,4 a 4 4 0 0,1 4,-4  h 8  c 2,0  3,1  4,2  l 4,4  c 1,1  2,2  4,2  h 12  c 2,0  3,-1  4,-2  l 4,-4  c 1,-1  2,-2  4,-2  h 191.2265625 a 4 4 0 0,1 4,4  v 8  l 0,0  0,0  0,0  v 32  V 44  V 44 a 4 4 0 0,1 -4,4  h -191.2265625  c -2,0  -3,1  -4,2  l -4,4  c -1,1  -2,2  -4,2  h -12  c -2,0  -3,-1  -4,-2  l -4,-4  c -1,-1  -2,-2  -4,-2  h -8 a 4 4 0 0,1 -4,-4 z&#10;"></path>
+    <g data-id="N?[)2jGXi.~pS?y5+YBs" class="blocklyDraggable" style="display: none;" transform="translate(0, -20)">
+      <path class="blocklyPath" stroke="#acacac" fill="#fff" d=" m 20,0  h 394.921875 a 20 20 0 0,1 20,20  v 0 a 20 20 0 0,1 -20,20  V 40  h -394.921875 a 20 20 0 0,1 -20,-20  v 0 a 20 20 0 0,1 20,-20 z&#10;"></path>
+      <g class="blocklyEditableText" transform="translate(11,9.5)" style="cursor: text;">
+        <rect rx="4" ry="4" x="0" y="0" height="21" width="412.921875" class="blocklyFieldRect" style="display: none;"></rect>
+        <text class="blocklyText" dominant-baseline="central" x="0" y="10.5">Auto analysis  ▶ CHART READING + TICK COUNTING   </text>
+      </g>
+    </g>
+    <g data-id="X;R#EpzIZP4)b]S3yN{G" class="blocklyDraggable" transform="translate(0, 48)">
+      <path class="blocklyPath" stroke="#acacac" fill="#e5e5e5" d=" m 0,0  m 0,4 a 4 4 0 0,1 4,-4  h 8  c 2,0  3,1  4,2  l 4,4  c 1,1  2,2  4,2  h 12  c 2,0  3,-1  4,-2  l 4,-4  c 1,-1  2,-2  4,-2  h 185.375 a 4 4 0 0,1 4,4  v 8  l 0,0  0,0  0,0  v 32  V 44  V 44 a 4 4 0 0,1 -4,4  h -185.375  c -2,0  -3,1  -4,2  l -4,4  c -1,1  -2,2  -4,2  h -12  c -2,0  -3,-1  -4,-2  l -4,-4  c -1,-1  -2,-2  -4,-2  h -8 a 4 4 0 0,1 -4,-4 z&#10;"></path>
+      <g data-id="p-~wsy2ttO!Xm-LYET+#" class="blocklyDraggable" style="display: none;" transform="translate(0, -20)">
+        <path class="blocklyPath" stroke="#acacac" fill="#fff" d=" m 20,0  h 215.7578125 a 20 20 0 0,1 20,20  v 0 a 20 20 0 0,1 -20,20  V 40  h -215.7578125 a 20 20 0 0,1 -20,-20  v 0 a 20 20 0 0,1 20,-20 z&#10;"></path>
+        <g class="blocklyEditableText" transform="translate(11,9.5)" style="cursor: text;">
+          <rect rx="4" ry="4" x="0" y="0" height="21" width="233.7578125" class="blocklyFieldRect" style="display: none;"></rect>
+          <text class="blocklyText" dominant-baseline="central" x="0" y="10.5"> { Assessing The Trade Market }</text>
+        </g>
+      </g>
+      <g style="display: none;">
+        <text class="blocklyText" dominant-baseline="central"></text>
+      </g>
+      <g class="blocklyEditableText" style="display: none; cursor: default;">
+        <rect rx="4" ry="4" x="0" y="0" height="0" width="0" class="blocklyFieldRect blocklyDropdownRect" stroke="#acacac" fill="transparent"></rect>
+        <text class="blocklyText" dominant-baseline="central"></text>
+        <image></image>
+        <image height="12px" width="12px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi43MSIgaGVpZ2h0PSI4Ljc5IiB2aWV3Qm94PSIwIDAgMTIuNzEgOC43OSI+PHRpdGxlPmRyb3Bkb3duLWFycm93PC90aXRsZT48ZyBvcGFjaXR5PSIwLjEiPjxwYXRoIGQ9Ik0xMi43MSwyLjQ0QTIuNDEsMi40MSwwLDAsMSwxMiw0LjE2TDguMDgsOC4wOGEyLjQ1LDIuNDUsMCwwLDEtMy40NSwwTDAuNzIsNC4xNkEyLjQyLDIuNDIsMCwwLDEsMCwyLjQ0LDIuNDgsMi40OCwwLDAsMSwuNzEuNzFDMSwwLjQ3LDEuNDMsMCw2LjM2LDBTMTEuNzUsMC40NiwxMiwuNzFBMi40NCwyLjQ0LDAsMCwxLDEyLjcxLDIuNDRaIiBmaWxsPSIjMjMxZjIwIi8+PC9nPjxwYXRoIGQ9Ik02LjM2LDcuNzlhMS40MywxLjQzLDAsMCwxLTEtLjQyTDEuNDIsMy40NWExLjQ0LDEuNDQsMCwwLDEsMC0yYzAuNTYtLjU2LDkuMzEtMC41Niw5Ljg3LDBhMS40NCwxLjQ0LDAsMCwxLDAsMkw3LjM3LDcuMzdBMS40MywxLjQzLDAsMCwxLDYuMzYsNy43OVoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="></image>
+      </g>
+      <g style="display: none;">
+        <text class="blocklyText" dominant-baseline="central"></text>
+      </g>
+      <g class="blocklyEditableText" style="display: none; cursor: default;">
+        <rect rx="4" ry="4" x="0" y="0" height="0" width="0" class="blocklyFieldRect blocklyDropdownRect" stroke="#acacac" fill="transparent"></rect>
+        <text class="blocklyText" dominant-baseline="central"></text>
+        <image></image>
+        <image height="12px" width="12px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi43MSIgaGVpZ2h0PSI4Ljc5IiB2aWV3Qm94PSIwIDAgMTIuNzEgOC43OSI+PHRpdGxlPmRyb3Bkb3duLWFycm93PC90aXRsZT48ZyBvcGFjaXR5PSIwLjEiPjxwYXRoIGQ9Ik0xMi43MSwyLjQ0QTIuNDEsMi40MSwwLDAsMSwxMiw0LjE2TDguMDgsOC4wOGEyLjQ1LDIuNDUsMCwwLDEtMy40NSwwTDAuNzIsNC4xNkEyLjQyLDIuNDIsMCwwLDEsMCwyLjQ0LDIuNDgsMi40OCwwLDAsMSwuNzEuNzFDMSwwLjQ3LDEuNDMsMCw2LjM2LDBTMTEuNzUsMC40NiwxMiwuNzFBMi40NCwyLjQ0LDAsMCwxLDEyLjcxLDIuNDRaIiBmaWxsPSIjMjMxZjIwIi8+PC9nPjxwYXRoIGQ9Ik02LjM2LDcuNzlhMS40MywxLjQzLDAsMCwxLTEtLjQyTDEuNDIsMy40NWExLjQ0LDEuNDQsMCwwLDEsMC0yYzAuNTYtLjU2LDkuMzEtMC41Niw5Ljg3LDBhMS40NCwxLjQ0LDAsMCwxLDAsMkw3LjM3LDcuMzdBMS40MywxLjQzLDAsMCwxLDYuMzYsNy43OVoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="></image>
+      </g>
+      <g transform="translate(8,13.5)">
+        <text class="blocklyText" dominant-baseline="central" x="0" y="10.5">Notify blue with sound: Sil...</text>
+      </g>
+    </g>
+    <g style="display: none;">
+      <text class="blocklyText" dominant-baseline="central"></text>
+    </g>
+    <g class="blocklyEditableText" style="display: none; cursor: default;">
+      <rect rx="4" ry="4" x="0" y="0" height="0" width="0" class="blocklyFieldRect blocklyDropdownRect" stroke="#acacac" fill="transparent"></rect>
+      <text class="blocklyText" dominant-baseline="central"></text>
+      <image></image>
+      <image height="12px" width="12px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi43MSIgaGVpZ2h0PSI4Ljc5IiB2aWV3Qm94PSIwIDAgMTIuNzEgOC43OSI+PHRpdGxlPmRyb3Bkb3duLWFycm93PC90aXRsZT48ZyBvcGFjaXR5PSIwLjEiPjxwYXRoIGQ9Ik0xMi43MSwyLjQ0QTIuNDEsMi40MSwwLDAsMSwxMiw0LjE2TDguMDgsOC4wOGEyLjQ1LDIuNDUsMCwwLDEtMy40NSwwTDAuNzIsNC4xNkEyLjQyLDIuNDIsMCwwLDEsMCwyLjQ0LDIuNDgsMi40OCwwLDAsMSwuNzEuNzFDMSwwLjQ3LDEuNDMsMCw2LjM2LDBTMTEuNzUsMC40NiwxMiwuNzFBMi40NCwyLjQ0LDAsMCwxLDEyLjcxLDIuNDRaIiBmaWxsPSIjMjMxZjIwIi8+PC9nPjxwYXRoIGQ9Ik02LjM2LDcuNzlhMS40MywxLjQzLDAsMCwxLTEtLjQyTDEuNDIsMy40NWExLjQ0LDEuNDQsMCwwLDEsMC0yYzAuNTYtLjU2LDkuMzEtMC41Niw5Ljg3LDBhMS40NCwxLjQ0LDAsMCwxLDAsMkw3LjM3LDcuMzdBMS40MywxLjQzLDAsMCwxLDYuMzYsNy43OVoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="></image>
+    </g>
+    <g style="display: none;">
+      <text class="blocklyText" dominant-baseline="central"></text>
+    </g>
+    <g class="blocklyEditableText" style="display: none; cursor: default;">
+      <rect rx="4" ry="4" x="0" y="0" height="0" width="0" class="blocklyFieldRect blocklyDropdownRect" stroke="#acacac" fill="transparent"></rect>
+      <text class="blocklyText" dominant-baseline="central"></text>
+      <image></image>
+      <image height="12px" width="12px" xmlns:xlink="http://www.w3.org/1999/xlink" xlink:href="data:image/svg+xml;base64,PHN2ZyBpZD0iTGF5ZXJfMSIgZGF0YS1uYW1lPSJMYXllciAxIiB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxMi43MSIgaGVpZ2h0PSI4Ljc5IiB2aWV3Qm94PSIwIDAgMTIuNzEgOC43OSI+PHRpdGxlPmRyb3Bkb3duLWFycm93PC90aXRsZT48ZyBvcGFjaXR5PSIwLjEiPjxwYXRoIGQ9Ik0xMi43MSwyLjQ0QTIuNDEsMi40MSwwLDAsMSwxMiw0LjE2TDguMDgsOC4wOGEyLjQ1LDIuNDUsMCwwLDEtMy40NSwwTDAuNzIsNC4xNkEyLjQyLDIuNDIsMCwwLDEsMCwyLjQ0LDIuNDgsMi40OCwwLDAsMSwuNzEuNzFDMSwwLjQ3LDEuNDMsMCw2LjM2LDBTMTEuNzUsMC40NiwxMiwuNzFBMi40NCwyLjQ0LDAsMCwxLDEyLjcxLDIuNDRaIiBmaWxsPSIjMjMxZjIwIi8+PC9nPjxwYXRoIGQ9Ik02LjM2LDcuNzlhMS40MywxLjQzLDAsMCwxLTEtLjQyTDEuNDIsMy40NWExLjQ0LDEuNDQsMCwwLDEsMC0yYzAuNTYtLjU2LDkuMzEtMC41Niw5Ljg3LDBhMS40NCwxLjQ0LDAsMCwxLDAsMkw3LjM3LDcuMzdBMS40MywxLjQzLDAsMCwxLDYuMzYsNy43OVoiIGZpbGw9IiNmZmYiLz48L3N2Zz4="></image>
+    </g>
+    <g transform="translate(8,13.5)">
+      <text class="blocklyText" dominant-baseline="central" x="0" y="10.5">Notify green with sound: Si...</text>
+    </g>
+  </g>
+</g>
   </g>
   <g data-id="D9#N:dxfobE7RJP=4sDC" class="blocklyDraggable" style="display: block;" transform="translate(16, 48)">
     <path class="blocklyPath" stroke="#acacac" fill="#e5e5e5" d=" m 0,0  m 0,4 a 4 4 0 0,1 4,-4  h 8  c 2,0  3,1  4,2  l 4,4  c 1,1  2,2  4,2  h 12  c 2,0  3,-1  4,-2  l 4,-4  c 1,-1  2,-2  4,-2  h 191.2265625 a 4 4 0 0,1 4,4  v 8  l 0,0  0,0  0,0  v 32  V 44  V 44 a 4 4 0 0,1 -4,4  h -191.2265625  c -2,0  -3,1  -4,2  l -4,4  c -1,1  -2,2  -4,2  h -12  c -2,0  -3,-1  -4,-2  l -4,-4  c -1,-1  -2,-2  -4,-2  h -8 a 4 4 0 0,1 -4,-4 z&#10;"></path>
