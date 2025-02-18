@@ -1,11 +1,11 @@
 <xml xmlns="https://developers.google.com/blockly/xml" is_dbot="true" collection="false">
   <variables>
-  <Action id="1" name="Set State">Set state to 2</Action>
-      <Action id="2" name="Set Digit Odd">Set digit odd to 1</Action>
-      <Action id="3" name="Set Digit Even">Set digit even to 2</Action>
-      <Action id="4" name="Set Martingale">Set martingale to 2</Action>
-      <Action id="5" name="Set Stop Loss">Set stop loss to 10</Action>
-      <Action id="6" name="Set Target Profit">Set target profit to 10</Action>
+  <Action id="1" name="Set State">stake</Action>
+      <Action id="2" name="Set Digit Odd">digit odd</Action>
+      <Action id="3" name="Set Digit Even">digit even</Action>
+      <Action id="4" name="Set Martingale">martingale</Action>
+      <Action id="5" name="Set Stop Loss">stop loss</Action>
+      <Action id="6" name="Set Target Profit">profit</Action>
   </variables>
   <block type="trade_definition" id="!l$A,{P2V5Uh[~yR_~^q" deletable="false" x="0" y="60">
     <statement name="TRADE_OPTIONS">
