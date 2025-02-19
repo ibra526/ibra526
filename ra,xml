@@ -1,0 +1,246 @@
+<xml xmlns="https://developers.google.com/blockly/xml" is_dbot="true" collection="false">
+  <variables>
+    <variable id="}|Ow66Iv3Mz^N(jzX{(H">var4</variable>
+    <variable id="V-)X.4vME7TU]*/wwH}^">var2</variable>
+    <variable id="~%kuQE-=c`rQ#TW$!dYD">odd count loss</variable>
+    <variable id="j{d=ZD{B(..yJ:Wu[JRd">digit odd</variable>
+    <variable id="/yM3L,x%Qf%RaX-BpjEg">digit even</variable>
+    <variable id="DYELW@K=]WTKW)#B@hIp">stake</variable>
+    <variable id="rrR4GEodE4TETn?ZS.Me">even count loss</variable>
+    <variable id="e/-l0vwPNufAlck`E(e0">martingal</variable>
+    <variable id="l/6f88l+1JK2Wa`{M}.~">target profit</variable>
+  </variables>
+  <block type="trade_definition" id="b0}k6Z0+E#U7^L1z.60y" deletable="false" x="0" y="60">
+    <statement name="TRADE_OPTIONS">
+      <block type="trade_definition_market" id="!Uf2,AZW[%[ih/5^Al?L" deletable="false" movable="false">
+        <field name="MARKET_LIST">synthetic_index</field>
+        <field name="SUBMARKET_LIST">random_index</field>
+        <field name="SYMBOL_LIST">1HZ10V</field>
+        <next>
+          <block type="trade_definition_tradetype" id="nXkYs;J^9)g3Kr;49ZgT" deletable="false" movable="false">
+            <field name="TRADETYPECAT_LIST">digits</field>
+            <field name="TRADETYPE_LIST">evenodd</field>
+            <next>
+              <block type="trade_definition_contracttype" id="hkQKh%2|u|I_x}qZEQ1E" deletable="false" movable="false">
+                <field name="TYPE_LIST">both</field>
+                <next>
+                  <block type="trade_definition_candleinterval" id="jkXj=C)g7WvMwZ!:W7.5" deletable="false" movable="false">
+                    <field name="CANDLEINTERVAL_LIST">60</field>
+                    <next>
+                      <block type="trade_definition_restartbuysell" id="YGL0|NiXElY0na4*~y3n" deletable="false" movable="false">
+                        <field name="TIME_MACHINE_ENABLED">FALSE</field>
+                        <next>
+                          <block type="trade_definition_restartonerror" id="NOOk!l~SGgy?s|3Q#tjZ" deletable="false" movable="false">
+                            <field name="RESTARTONERROR">TRUE</field>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <statement name="INITIALIZATION">
+      <block type="variables_set" id="ae(4/iannfHVIvzd#d3D">
+        <field name="VAR" id="j{d=ZD{B(..yJ:Wu[JRd">digit odd</field>
+        <value name="VALUE">
+          <block type="text" id="V`mvej~k1{lDCXO59A0J">
+            <field name="TEXT">DIGIT ODD</field>
+          </block>
+        </value>
+        <next>
+          <block type="variables_set" id="m)T_8?n_b_Azc{Guq^4G">
+            <field name="VAR" id="/yM3L,x%Qf%RaX-BpjEg">digit even</field>
+            <value name="VALUE">
+              <block type="text" id="kLD.W4{TGjXMgSTC^J2Q">
+                <field name="TEXT">DIGIT EVEN</field>
+              </block>
+            </value>
+            <next>
+              <block type="variables_set" id="~uRW{CCiK)-_FcG-Zs$i">
+                <field name="VAR" id="e/-l0vwPNufAlck`E(e0">martingal</field>
+                <value name="VALUE">
+                  <block type="math_number" id="%IzOmU;T0QwwUvB-ykyL">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+                <next>
+                  <block type="variables_set" id="H{^uwEo^k7[Da5!|$sNg">
+                    <field name="VAR" id="DYELW@K=]WTKW)#B@hIp">stake</field>
+                    <value name="VALUE">
+                      <block type="math_number" id="oD}2rJDp2:k},/tO-Zmi">
+                        <field name="NUM">1</field>
+                      </block>
+                    </value>
+                    <next>
+                      <block type="variables_set" id="#r#B@73oW{XoORv(A@S=">
+                        <field name="VAR" id="l/6f88l+1JK2Wa`{M}.~">target profit</field>
+                        <value name="VALUE">
+                          <block type="math_number" id="/g)pH]$Pd0tc*.yHy)rv">
+                            <field name="NUM">0</field>
+                          </block>
+                        </value>
+                        <next>
+                          <block type="variables_set" id="pXAphp`zQ)!A5@Ywe$kG">
+                            <field name="VAR" id="~%kuQE-=c`rQ#TW$!dYD">odd count loss</field>
+                            <value name="VALUE">
+                              <block type="math_number" id="6B~#z=7UW`HATBC0:*}a">
+                                <field name="NUM">0</field>
+                              </block>
+                            </value>
+                            <next>
+                              <block type="variables_set" id=";;cW?BhTDt;z~Pg!-FaW">
+                                <field name="VAR" id="rrR4GEodE4TETn?ZS.Me">even count loss</field>
+                                <value name="VALUE">
+                                  <block type="math_number" id="L6=B2;$4BoJtMDnD#0xm">
+                                    <field name="NUM">0</field>
+                                  </block>
+                                </value>
+                              </block>
+                            </next>
+                          </block>
+                        </next>
+                      </block>
+                    </next>
+                  </block>
+                </next>
+              </block>
+            </next>
+          </block>
+        </next>
+      </block>
+    </statement>
+    <statement name="SUBMARKET">
+      <block type="trade_definition_tradeoptions" id="O~AHTfJ09v!/ve[vy-@v">
+        <mutation xmlns="http://www.w3.org/1999/xhtml" has_first_barrier="false" has_second_barrier="false" has_prediction="false"></mutation>
+        <field name="DURATIONTYPE_LIST">t</field>
+        <value name="DURATION">
+          <shadow type="math_number" id="$bxB`1e|V-afis+?@ji^">
+            <field name="NUM">1</field>
+          </shadow>
+        </value>
+        <value name="AMOUNT">
+          <shadow type="math_number" id="n[7Rflap3YVNVttO(F3u">
+            <field name="NUM">0.35</field>
+          </shadow>
+          <block type="variables_get" id="+P%cqyn,4hv-dT*1XC/m">
+            <field name="VAR" id="DYELW@K=]WTKW)#B@hIp">stake</field>
+          </block>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="during_purchase" id="{jcH/+gn94|#w7v`7xc=" x="714" y="60">
+    <statement name="DURING_PURCHASE_STACK">
+      <block type="notify" id="RFx4/^/0Uz2hWysQu*Zs">
+        <field name="NOTIFICATION_TYPE">success</field>
+        <field name="NOTIFICATION_SOUND">silent</field>
+        <value name="MESSAGE">
+          <shadow type="text" id="=|OAJhm!Z%,S$%];)E9y">
+            <field name="TEXT">abc</field>
+          </shadow>
+        </value>
+      </block>
+    </statement>
+  </block>
+  <block type="after_purchase" id="n9~Ai$_fLf#At;QLG|k%" x="714" y="238">
+    <statement name="AFTERPURCHASE_STACK">
+      <block type="trade_again" id="FngvqKSe*8zut8/xLfc?"></block>
+    </statement>
+  </block>
+  <block type="before_purchase" id="!;9M7r|57z+OaTM63{Pg" deletable="false" x="0" y="976">
+    <statement name="BEFOREPURCHASE_STACK">
+      <block type="controls_if" id="ClH7k;|f.OT|_/BG!9mI">
+        <mutation xmlns="http://www.w3.org/1999/xhtml" else="1"></mutation>
+        <value name="IF0">
+          <block type="logic_compare" id="AMd$1Y`,M7K(wmU}0Yf[">
+            <field name="OP">EQ</field>
+            <value name="A">
+              <block type="variables_get" id="#!)4h)=94Y2CmI6^XGAF">
+                <field name="VAR" id="rrR4GEodE4TETn?ZS.Me">even count loss</field>
+              </block>
+            </value>
+            <value name="B">
+              <block type="math_number" id="KDIHqNbIzvA~0,Ne7Aia">
+                <field name="NUM">2</field>
+              </block>
+            </value>
+          </block>
+        </value>
+        <statement name="DO0">
+          <block type="variables_set" id="Gf[[QY-_.U=!754RKGsu">
+            <field name="VAR" id="rrR4GEodE4TETn?ZS.Me">even count loss</field>
+            <value name="VALUE">
+              <block type="math_number" id="=6^d4SLk-rU;7d;!ge+X">
+                <field name="NUM">0</field>
+              </block>
+            </value>
+            <next>
+              <block type="purchase" id="pJQ%zp0%7qcla=f;RZ/[">
+                <field name="PURCHASE_LIST">DIGITODD</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <statement name="ELSE">
+          <block type="controls_if" id="x#kBY$VP[Q!H~_:|n|UA">
+            <value name="IF0">
+              <block type="logic_compare" id="64h^hVLUnBCw-dOuXxR+">
+                <field name="OP">EQ</field>
+                <value name="A">
+                  <block type="variables_get" id="QGFONJW,k{suEob+.SZ)">
+                    <field name="VAR" id="~%kuQE-=c`rQ#TW$!dYD">odd count loss</field>
+                  </block>
+                </value>
+                <value name="B">
+                  <block type="math_number" id="|`vyJ6yu!]}EaSOgmxg^">
+                    <field name="NUM">2</field>
+                  </block>
+                </value>
+              </block>
+            </value>
+            <statement name="DO0">
+              <block type="variables_set" id="mg0)GL`Z7xR`P/t4~}hc">
+                <field name="VAR" id="~%kuQE-=c`rQ#TW$!dYD">odd count loss</field>
+                <value name="VALUE">
+                  <block type="math_number" id="/j/(Da|Z3VteO74kg,S%">
+                    <field name="NUM">0</field>
+                  </block>
+                </value>
+              </block>
+            </statement>
+            <next>
+              <block type="purchase" id="rMbbn!fwbkY!nUfbIq;)">
+                <field name="PURCHASE_LIST">DIGITEVEN</field>
+              </block>
+            </next>
+          </block>
+        </statement>
+        <next>
+          <block type="purchase" id="V$Gj2%tw=~6#R{YZ=DHo">
+            <field name="PURCHASE_LIST">DIGITEVEN</field>
+          </block>
+        </next>
+      </block>
+    </statement>
+  </block>
+  <block type="variables_get" id="c)HhCa-6bHY!VE6.jX|[" disabled="true" x="0" y="1234">
+    <field name="VAR" id="}|Ow66Iv3Mz^N(jzX{(H">var4</field>
+  </block>
+  <block type="variables_get" id="z^Dv.H,*zv^Zuty:R1I-" disabled="true" x="0" y="1322">
+    <field name="VAR" id="V-)X.4vME7TU]*/wwH}^">var2</field>
+  </block>
+  <block type="math_number" id="*(x7+-n0F!=-[m4ueipj" disabled="true" x="0" y="1410">
+    <field name="NUM">0</field>
+  </block>
+  <block type="math_number" id="2KPc.WvCT@FmpK@/Vj@Z" disabled="true" x="0" y="2016">
+    <field name="NUM">0</field>
+  </block>
+  <block type="variables_get" id="pVh8on3iDOqKiP~`8HLb" disabled="true" x="0" y="2104">
+    <field name="VAR" id="~%kuQE-=c`rQ#TW$!dYD">odd count loss</field>
+  </block>
+</xml>
